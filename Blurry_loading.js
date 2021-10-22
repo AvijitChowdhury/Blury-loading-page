@@ -1,3 +1,4 @@
+/**Name: Avijit Chowdhury */
 const loadText = document.querySelector('.loading-text');
 const bg = document.querySelector('.bg');
 
@@ -20,6 +21,9 @@ function blurring() {
   loadText.style.opacity = scale(load, 0, 100, 1, 0)
   bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 };
-
+const btn = document.getElementById('btn');
+btn.addEventListener('click',()=>{
+  window.location.reload();
+})
 
 

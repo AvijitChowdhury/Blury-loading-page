@@ -11,6 +11,7 @@ body{
     height: 100vh;
     overflow: hidden;
     margin:0 ;
+    text-align: left;
 }
 
 .bg {
@@ -28,4 +29,15 @@ body{
   .loading-text {
     font-size: 50px;
     color: #fff;
+  }
+  button{
+    
+    width:110px;
+    height: 40px;
+    color:white;
+    background-color: black;
+    border: 2px solid aqua;
+    border-radius:3px;
+    font-size: 30px;
+
   }
